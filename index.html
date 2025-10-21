@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cafeteria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Cafeteria</h1>
+
+    <div>
+      <label>Produto:</label>
+      <input type="text" id="produto" placeholder="Ex: Café">
+    </div>
+
+    <div>
+      <label>Preço (R$):</label>
+      <input type="number" id="preco" placeholder="Ex: 10.00" step="0.01">
+    </div>
+
+    <button id="adicionar-botao" onclick="adicionarItem()">Adicionar item</button>
+
+    <h3>Itens do pedido</h3>
+    <div id="lista-itens"></div>
+
+    <p id="total">R$ 0.00</p>
+
+    <button id="calcular-botao" onclick="calcularTotal()">Calcular total</button>
+    <button id="salvar-botao" onclick="salvarPedido()">Salvar pedido</button>
+
+    <script src="script.js" defer></script>    
+</body>
+</html>
