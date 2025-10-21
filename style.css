@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #ffb6ff;
+    color: #92299c;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #661e6d;
+    letter-spacing: 1px;
+  }
+
+  h3{
+    color: #661e6d;
+  }
+  
+  div {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #d8c7b8;
+    border-radius: 8px;
+    background: #fffaf5;
+    transition: border 0.2s, box-shadow 0.2s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #a42aa0;
+    box-shadow: 0 0 0 2px rgba(157, 38, 155, 0.2);
+  }
+  
+  /* === Botões === */
+  button {
+    background: #661e6d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px 5px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #a844b1;
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* === Lista de itens === */
+  #lista-itens {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    background: #fffaf5;
+    border: 1px solid #e0d2c3;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  #lista-itens div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+ 
+  #total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #661e6d;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+    section {
+        text-align: center;
+    }
+
+    img {
+        border-width: 2000px;
+        border-color: #752470;
+        border-radius: 50px;
+        height: 150px;
+        width: 150px;
+    }
